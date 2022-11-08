@@ -1,0 +1,13 @@
+.places {
+  width: 984px;
+  min-height: 3392px;
+  padding: 92px 0;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    width: 928px;
+    min-height: 3292px;
+  }
+}

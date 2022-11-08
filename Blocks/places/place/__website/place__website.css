@@ -1,0 +1,10 @@
+.place__website {
+  width: 456px;
+  min-height: 46px;
+  align-self: end;
+  padding-bottom: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+/*Изменений нет*/
+}

@@ -1,0 +1,20 @@
+.footer__link {
+  min-width: 50px;
+  min-height: 18px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  text-decoration: none;
+  padding-right: 18px;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+/*нет изменений*/
+}

@@ -1,0 +1,14 @@
+.cover_background {
+    width: 1184px;
+    height: 740px;
+    background-image: url("../../../images/cover-trains.jpg");
+    position: relative;
+    z-index: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover_background {
+    width: 1024px;
+    height: 640px;
+}
+}
