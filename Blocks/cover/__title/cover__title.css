@@ -19,3 +19,9 @@
     padding-top: 195px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    padding-top: 115px;
+  }
+}

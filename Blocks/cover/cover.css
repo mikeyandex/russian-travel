@@ -7,7 +7,13 @@
 @media screen and (max-width: 1024px) {
   .cover {
     width: 1024px;
-    height: 6s40px;
+    height: 640px;
+}
+}
 
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 768px;
+    height: 480px;
 }
 }

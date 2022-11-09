@@ -17,3 +17,23 @@
     gap: 14px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    width: 720px;
+    min-height: 1664px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    width: 288px;
+    min-height: 2724px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 12px;
+  }
+}

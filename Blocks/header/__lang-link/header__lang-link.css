@@ -8,3 +8,22 @@
   color: #fff;
   margin: 18px 0 6px 18px;
 }
+
+@media screen and (max-width: 1024px) {
+  /*нет изменений*/
+}
+
+@media screen and (max-width: 768px) {
+  /*нет изменений*/
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    width: 22px;
+    min-height: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    margin: 14px 0 8px 18px;
+  }
+}

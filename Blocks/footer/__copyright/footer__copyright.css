@@ -15,9 +15,9 @@ justify-self: right;
 }
 
 @media screen and (max-width: 1024px) {
-  .lead {
-    width: 928px;
-    height: 962px;
-    padding: 0 48px 92px 48px;
-  }
+/*Нет изменений*/
 }
+
+@media screen and (max-width: 768px) {
+  /*Нет изменений*/
+  }

@@ -10,3 +10,17 @@
     height: 440px;
  }
 }
+
+@media screen and (max-width: 768px) {
+  .place-image {
+    width: 340px;
+    height: 340px;
+ }
+}
+
+@media screen and (max-width: 320px) {
+  .place-image {
+    width: 320px;
+    height: 320px;
+ }
+}

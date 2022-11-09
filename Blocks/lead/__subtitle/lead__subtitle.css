@@ -21,6 +21,19 @@
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
-  /*нет изменений*/
+    /*нет изменений*/
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__subtitle {
+    width: 288px;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 16px 0 40px 0;
   }
 }

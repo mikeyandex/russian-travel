@@ -17,3 +17,12 @@
     left: 24px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    top: 16px;
+    left: 16px;
+    width: 124px;
+    height: 42px;
+  }
+}

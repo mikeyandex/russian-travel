@@ -11,3 +11,22 @@
     padding: 40px 0 33px 0;     
     margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  /*Без изменений*/
+  }
+  
+  @media screen and (max-width: 768px) {
+    .intro__text {
+      width: 720px;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .intro__text {
+      width: 288px;
+      min-height: 520px;
+      margin: 0 auto;
+    }
+  }

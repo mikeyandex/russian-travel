@@ -11,3 +11,17 @@
     min-height: 3292px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .places {
+    width: 720px;
+    min-height: 2808px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    width: 320px;
+    min-height: 5177px;
+  }
+}

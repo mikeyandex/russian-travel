@@ -19,4 +19,16 @@
 
 @media screen and (max-width: 768px) {
   /*нет изменений*/
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    width: 288px;
+    min-height: 88px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
   }
+}

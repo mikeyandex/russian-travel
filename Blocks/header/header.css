@@ -7,6 +7,7 @@
   display: flex;
   justify-content: right;
 }
+
 @media screen and (max-width: 1024px) {
   .header {
     width: 928px;
@@ -17,5 +18,13 @@
   .header {
     width: 720px;
     padding: 28px 24px 48px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    width: 288px;
+    min-height: 42px;
+    padding: 16px 16px 48px 16px;
   }
 }

@@ -2,9 +2,21 @@
   width: 456px;
   min-height: 46px;
   align-self: end;
-  padding-bottom: 48px;
 }
 
 @media screen and (max-width: 1024px) {
 /*Изменений нет*/
 }
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    width: 325px;
+  }
+  }
+
+  @media screen and (max-width: 320px) {
+    .place__website {
+      width: 288px;
+      margin: 0 auto;
+    }
+    }

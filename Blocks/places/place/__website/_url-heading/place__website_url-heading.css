@@ -1,21 +1,31 @@
 .place__website_url-heading {
-    width: 456px;
-    min-height: 12px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    /* identical to box height, or 100% */
-    letter-spacing: 2px;
-    color: #AAAAAA;
-    margin: 0;
-    display: block;
+  width: 456px;
+  min-height: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+  letter-spacing: 2px;
+  color: #AAAAAA;
+  margin: 0;
+  display: block;
 }
 
 @media screen and (max-width: 1024px) {
   .place__website_url-heading {
     line-height: 170%;
     /* or 20px */
-}   
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__website_url-heading {
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+/*нет изхменений*/
 }
