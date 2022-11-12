@@ -1,0 +1,10 @@
+  .header__lang {
+display: flex;
+flex-direction: row;
+list-style-type: none;
+padding-left: 0;
+width: min-content;
+min-height: 100%;
+  };
+
+

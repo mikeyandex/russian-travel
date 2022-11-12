@@ -1,16 +1,17 @@
 @import url(../vendor/normalize.css);
 /**/
-@import url(../fonts/inter.css);
+@import url(..//vendor/fonts/inter.css);
 /*Блоки*/
 @import url(../Blocks/header/header.css);
+@import url(../Blocks/header/__lang/header__lang.css);
 @import url(../Blocks/header/__lang-link/header__lang-link.css);
-@import url(../Blocks/header/__lang-link/_no-underline/header__lang-link_no-underline.css);
+@import url(../Blocks/header/__lang-link/header__lang-link_switch/header__lang-link_switch.css);
 @import url(../Blocks/header/__logo/header__logo.css);
 /**/
 @import url(../Blocks/footer/footer.css);
 @import url(../Blocks/footer/__copyright/footer__copyright.css);
 @import url(../Blocks/footer/__link/footer-link.css);
-@import url(../Blocks/footer/__nav/footer-nav.css);
+@import url(../Blocks/footer/__nav/footer__nav.css);
 /**/
 @import url(../Blocks/Content/content.css);
 /**/
@@ -29,14 +30,13 @@
 @import url(../Blocks/photo-grid/__item/photo-grid__item.css);
 /**/
 @import url(../Blocks/places/places.css);
-@import url(../Blocks/places/place/place.css);
-@import url(../Blocks/places/place/_two-line-title/place_two-line-title.css);
-@import url(../Blocks/places/place/__image/place__image.css);
-@import url(../Blocks/places/place/__paragraph/place__paragraph.css);
-@import url(../Blocks/places/place/__title/place__title.css);
-@import url(../Blocks/places/place/__website/place__website.css);
-@import url(../Blocks/places/place/__website/_link/place__website_link.css);
-@import url(../Blocks/places/place/__website/_url-heading/place__website_url-heading.css);
+@import url(../Blocks/place/place.css);
+@import url(../Blocks/place/__image/place__image.css);
+@import url(../Blocks/place/__paragraph/place__paragraph.css);
+@import url(../Blocks/place/__title/place__title.css);
+@import url(../Blocks/place/__website/place__website.css);
+@import url(../Blocks/place/__website/_link/place__website_link.css);
+@import url(../Blocks/place/__website/_url-heading/place__website_url-heading.css);
 /**/
 @import url(../Blocks/cover/cover.css);
 @import url(../Blocks/cover/__background/cover__background.css);

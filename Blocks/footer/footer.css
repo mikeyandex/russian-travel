@@ -1,21 +1,32 @@
 .footer {
-  width: 1184px;
-  height: 18px;
-  padding-top: 92px;
-  padding-bottom: 24px;
+  width: 92.5%;
+  min-height: 1.5;
+  padding-top: 5.75rem;
+  padding-bottom: 5.75rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
   .footer {
-    width: 928px;
+    width: 90.63%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    width: 720px;
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    width: 100%;
+    padding: 4rem 0 1.5rem 0;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-height: 19.375rem;
   }
 }

@@ -1,21 +1,35 @@
 .cover__subtitle {
-    width: 360px;
-    height: 66px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    /* or 122% */
-    text-align: center;
-    color: #FFFFFF;
-    margin: 0 auto;
+  width: 30.4%;
+  height: min-content;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.375;
+  /* or 122% */
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 auto;
+  z-index: 4;
+  position: relative;
 }
 
 @media screen and (max-width: 1024px) {
-/*Нет изменений*/
+  /*Нет изменений*/
 }
 
 @media screen and (max-width: 768px) {
-  /*Нет изменений*/
+  .cover__subtitle {
+    width: 22.5rem;
   }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    width: 90%;
+    height: min-content;
+    font-size: .875rem;
+    line-height: 1rem;
+    /* or 114% */
+  }
+}

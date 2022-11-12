@@ -1,21 +1,21 @@
 .lead__subtitle {
-  width: 640px;
-  height: 72px;
+  width: 65%;
+  min-height: 4.5rem;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 1.875;
+  line-height: 2.25rem;
   /* or 120% */
   text-align: center;
   color: #FFFFFF;
   margin: 0 auto;
-  padding: 32px 0 64px 0;
+  padding: 2rem 0 4rem 0;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
-    padding: 32px 0 56px 0;
+    padding: 2rem 0 3.5rem 0;
   }
 }
 
@@ -25,15 +25,15 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 320px) {
   .lead__subtitle {
-    width: 288px;
-    height: 40px;
+    width: 90%;
+    height: 2.5rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    padding: 16px 0 40px 0;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    padding: 1rem 0 2.5rem 0;
   }
 }

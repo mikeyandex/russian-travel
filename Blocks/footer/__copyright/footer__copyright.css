@@ -1,23 +1,33 @@
 .footer__copyright {
-width: min-content;
-min-height: 16px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-/* identical to box height, or 114% */
-text-align: right;
-color: #FFFFFF;
-margin: 0px;
-display: block;
-justify-self: right;
+  width: min-content;
+  min-height: 1rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  /* identical to box height, or 114% */
+  text-align: right;
+  color: #FFFFFF;
+  margin: 0px;
+  display: block;
+  justify-self: right;
 }
 
 @media screen and (max-width: 1024px) {
-/*Нет изменений*/
+  /*Нет изменений*/
 }
 
 @media screen and (max-width: 768px) {
   /*Нет изменений*/
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    min-height: .875rem;
+    line-height: .875rem;
+    box-sizing: border-box;
+    /* identical to box height, or 114% */
+    padding: 3rem 2rem 1.5rem 1rem;
   }
+}

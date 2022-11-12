@@ -1,10 +1,6 @@
 .header__logo {
-  position: absolute;
-  top: 28px;
-  left: 48px;
-  width: 176px;
-  height: 52px;
-  margin: 0 auto;
+  width: 14.864%;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 1024px) {

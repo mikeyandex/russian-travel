@@ -1,0 +1,9 @@
+.place__website {
+  width: 100%;
+  min-height: min-content;
+  align-self: end;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+
+/*нет изменений*/

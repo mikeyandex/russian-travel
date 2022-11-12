@@ -1,0 +1,29 @@
+.place__website_link {
+  width: 100%;
+  min-height: min-content;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.375;
+  /* identical to box height, or 122% */
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  display: block;
+}
+
+.place__website_link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  /*нет  изменений*/
+}
+
+@media screen and (max-width: 768px) {
+  /*нет  изменений*/
+}
+
+@media screen and (max-width: 320px) {
+  /*нет  изменений*/
+}
