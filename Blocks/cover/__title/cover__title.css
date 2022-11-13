@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 4.5rem;
-  line-height: 4.75rem;
+  line-height: 76px;
   /* or 106% */
   text-align: center;
   color: #FFFFFF;
@@ -19,22 +19,24 @@
 
 @media screen and (max-width: 1024px) {
   .cover__title {
+    font-size: 7.031vw;
     padding-top: 12.2rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
-     width: 100%;
+    min-width: 100%;
+    font-size: 9.375vw;
     padding-top: 7.19rem;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .cover__title {
     width: 90%;
     font-size: 2rem;
-    line-height: 2.188rem;
+    line-height: 35px;
     /* or 109% */
     padding-top: 2.06rem;
     padding-bottom: 1rem;

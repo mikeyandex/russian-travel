@@ -7,9 +7,17 @@
   grid-template-rows: 100%; 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 710px) {
   .footer__nav {
-    grid-template-columns: 100vw;
+    grid-template-columns:auto;
+    grid-template-rows: 1.5rem;
+    row-gap: 2rem; 
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__nav {
+    grid-template-columns:auto;
     grid-template-rows: 1.5rem;
     row-gap: 2rem; 
   }

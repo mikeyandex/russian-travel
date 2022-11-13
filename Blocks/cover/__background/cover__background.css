@@ -43,9 +43,13 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .cover__background {
     width: 100vw;
     height: 12.5rem;
   }
+}
+
+@media screen and (max-width: 320px) {
+/*нет изменений*/
 }

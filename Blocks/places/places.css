@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .places {
     width: 100%;
     min-height: 323.6rem;

@@ -19,14 +19,14 @@
 @media screen and (max-width: 768px) {
   .place__title {
     font-size: 2.625rem;
-    line-height: 1.164rem;
+    line-height: 46px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .place__title {
     width: 90%;
     font-size: 2rem;
-    line-height: 35rem;
+    line-height: 35px;
   }
 }
