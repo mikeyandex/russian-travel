@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 710px) {
   .lead__title {
     width: 90%;
     min-height: 5.5rem;

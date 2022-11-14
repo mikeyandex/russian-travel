@@ -9,8 +9,6 @@
     /* or 26px */
     color: #FFFFFF;
     padding: 2.5rem 0 2.062rem 0;     
-    margin: 0 auto;
-    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {

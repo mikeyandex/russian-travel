@@ -20,6 +20,14 @@
   }
 }
 
+@media screen and (max-width: 710px) {
+  .lead {
+    width: 100%px;
+    min-height: 25.375rem;
+    padding-bottom: 4rem;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead {
     width: 100%px;

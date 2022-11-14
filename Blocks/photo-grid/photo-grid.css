@@ -6,7 +6,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 1rem;
-  padding-bottom:0 0 5.75rem 0;
+  padding-bottom:5.75rem;
 }
 
 
@@ -25,6 +25,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 1rem;
+    padding-bottom:5.5rem;
   }
 }
 
