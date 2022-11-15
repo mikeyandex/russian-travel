@@ -27,11 +27,3 @@
     line-height: 12px;
   }
 }
-
-@media screen and (max-width: 425px) {
-  /*нет изменений*/
-  }
-
-@media screen and (max-width: 320px) {
-/*нет изменений*/
-}

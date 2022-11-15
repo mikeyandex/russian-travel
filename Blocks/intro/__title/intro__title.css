@@ -1,18 +1,18 @@
 .intro__title {
-    width: 100%;
-    min-height: 3.625;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 3.375rem;
-    line-height: 3.625rem;
-    /* identical to box height, or 107% */
-    color: #FFFFFF; 
-    margin: 0 auto;
+  width: 100%;
+  min-height: 3.625rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.375rem;
+  line-height: 3.625rem;
+  /* identical to box height, or 107% */
+  color: #FFFFFF;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
-/*Без изменений*/
+  /*Без изменений*/
 }
 
 @media screen and (max-width: 768px) {

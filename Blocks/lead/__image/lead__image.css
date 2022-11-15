@@ -2,21 +2,3 @@
     width: 100%;
     object-fit: cover;     
 }
-
-@media screen and (max-width: 1024px) {
-  .lead__image {
-    width: 100%;
-}
-}
-
-@media screen and (max-width: 768px) {
-  .lead__image {
-    width: 100%;
-}
-}
-
-@media screen and (max-width: 768px) {
-  .lead__image {
-    width: 100%;
-}
-}

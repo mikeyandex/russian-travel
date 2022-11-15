@@ -9,15 +9,7 @@
 
 @media screen and (max-width: 710px) {
   .footer__nav {
-    grid-template-columns:auto;
-    grid-template-rows: 1.5rem;
-    row-gap: 2rem; 
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .footer__nav {
-    grid-template-columns:auto;
+    grid-template-columns: auto;
     grid-template-rows: 1.5rem;
     row-gap: 2rem; 
   }

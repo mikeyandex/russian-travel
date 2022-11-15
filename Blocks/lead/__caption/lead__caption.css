@@ -14,19 +14,9 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
-  .lead__caption {
-    /*нет изменений*/
-  }
-}
-
 
 @media screen and (max-width: 768px) {
   .lead__caption {
     margin: .5rem 0 0 1.5rem;
   }
-}
-
-@media screen and (max-width: 320px) {
-    /*нет изменений*/
 }

@@ -34,10 +34,3 @@
     height: min-content;
   } 
 }
-
-@media screen and (max-width: 320px) {
-  .place__paragraph{
-    width: 90%;
-    height: min-content;
-  } 
-}

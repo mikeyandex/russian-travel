@@ -6,7 +6,6 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
@@ -26,27 +25,5 @@
     width: 100%;
     padding: 4rem 0 1.5rem 0;
     flex-direction: column;
-    box-sizing: border-box;
-    min-height: 19.375rem;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .footer {
-    width: 100%;
-    padding: 4rem 0 1.5rem 0;
-    flex-direction: column;
-    box-sizing: border-box;
-    min-height: 19.375rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .footer {
-    width: 100%;
-    padding: 4rem 0 1.5rem 0;
-    flex-direction: column;
-    box-sizing: border-box;
-    min-height: 19.375rem;
   }
 }

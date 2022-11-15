@@ -6,7 +6,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 1rem;
-  padding-bottom:5.75rem;
+  padding-bottom: 5.75rem;
 }
 
 
@@ -25,18 +25,17 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 1rem;
-    padding-bottom:5.5rem;
+    padding-bottom: 5.5rem;
   }
 }
 
 @media screen and (max-width: 425px) {
   .photo-grid {
-    width: 90%;
+    width: calc(100% - 2rem);
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 1fr);
     row-gap: .75rem;
     column-gap: 0;
-    box-sizing: border-box;
     padding-bottom: 4rem;
   }
 }

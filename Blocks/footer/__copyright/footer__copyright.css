@@ -32,13 +32,3 @@
     padding: 3rem 2rem 1.5rem 1rem;
   }
 }
-
-@media screen and (max-width: 425px) {
-  .footer__copyright {
-    min-height: .875rem;
-    line-height: .875rem;
-    box-sizing: border-box;
-    /* identical to box height, or 114% */
-    padding: 3rem 2rem 1.5rem 1rem;
-  }
-}

@@ -1,26 +1,23 @@
 .places {
   width: 76.875%;
-  min-height: 212rem;
+  min-height: auto;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
     width: 90.625%;
-    min-height: 205.75rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
     width: 91.6%;
-    min-height: 175.5rem;
   }
 }
 
 @media screen and (max-width: 425px) {
   .places {
     width: 100%;
-    min-height: 323.6rem;
   }
 }

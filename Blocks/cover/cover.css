@@ -1,27 +1,5 @@
 .cover {
-    width: 92.5%;
-    min-height: 46.25rem;
-    margin: 0 auto;
-    object-fit: cover;
-}
-
-@media screen and (max-width: 1024px) {
-  .cover {
-    width: 100%;
-    min-height: min-content;
-}
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    width: 100%;
-    min-height: min-content;
-}
-}
-
-@media screen and (max-width: 320px) {
-  .cover {
-    width: 100%;
-    min-height: min-content;
-}
+  width: 92.5%;
+  margin: 0 auto;
+  object-fit: cover;
 }

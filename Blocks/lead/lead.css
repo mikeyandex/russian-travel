@@ -1,6 +1,5 @@
 .lead {
   width: 76.875%;
-  min-height: 62.81rem;
   padding-bottom: 7.125rem;
   margin: 0 auto;
 }
@@ -8,14 +7,12 @@
 @media screen and (max-width: 1024px) {
   .lead {
     width: 90.625%;
-    min-height: 60.125rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
     width: 100%;
-    min-height: 53.875%;
     padding-bottom: 6.875rem;
   }
 }
@@ -23,15 +20,6 @@
 @media screen and (max-width: 710px) {
   .lead {
     width: 100%px;
-    min-height: 25.375rem;
-    padding-bottom: 4rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead {
-    width: 100%px;
-    min-height: 25.375rem;
     padding-bottom: 4rem;
   }
 }

@@ -1,6 +1,6 @@
 .intro {
   width: 53.9%;
-  min-height: 26.81rem;
+  height: min-content;
   padding: 0 27.625rem 5.75rem 9.25rem;
   margin: 0 auto;
 }
@@ -13,25 +13,14 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    width: 93.75%;
-    padding-bottom: 5.5rem;
+    width: 100%;
+    padding: 0 0 5.5rem 0;
   }
 }
 
 @media screen and (max-width: 425px) {
   .intro {
     width: 90%;
-    min-height: 47.125rem;
     padding: 0 1rem 4rem 1rem;
-
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .intro {
-    width: 90%;
-    min-height: 47.125rem;
-    padding: 0 1rem 4rem 1rem;
-
   }
 }

@@ -4,7 +4,7 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 1.875;
+  font-size: 1.875rem;
   line-height: 2.25rem;
   /* or 120% */
   text-align: center;
@@ -19,19 +19,10 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .lead__subtitle {
-    /*нет изменений*/
-  }
-}
-
 @media screen and (max-width: 320px) {
   .lead__subtitle {
     width: 90%;
-    height: 2.5rem;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
+    min-height: 2.5rem;
     font-size: 1rem;
     line-height: 1.25rem;
     padding: 1rem 0 2.5rem 0;
