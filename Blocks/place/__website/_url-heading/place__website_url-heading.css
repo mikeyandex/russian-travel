@@ -1,0 +1,29 @@
+.place__website_url-heading {
+  width: 100%;
+  min-height: min-content;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: .75rem;
+  line-height: .75rem;
+  /* identical to box height, or 100% */
+  letter-spacing: .125rem;
+  color: #AAAAAA;
+  margin: 0;
+  display: block;
+  margin-bottom: 0.75rem;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__website_url-heading {
+    line-height: 170%;
+    /* or 20px */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__website_url-heading {
+    line-height: 12px;
+  }
+}

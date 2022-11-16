@@ -1,0 +1,23 @@
+.places {
+  width: 76.875%;
+  min-height: auto;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    width: 91.6%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places {
+    width: 100%;
+  }
+}

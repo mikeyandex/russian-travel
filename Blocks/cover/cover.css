@@ -1,0 +1,5 @@
+.cover {
+  width: 92.5%;
+  margin: 0 auto;
+  object-fit: cover;
+}
