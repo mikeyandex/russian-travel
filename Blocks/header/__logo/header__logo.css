@@ -1,17 +1,12 @@
 .header__logo {
-  width:fit-content;
-  object-fit: contain;
-  top: 1.75rem;
-  left: 3rem;
+  margin: 0;
+  padding: 0;
+  max-width: 11rem;
+  height: auto;
 }
 
-@media screen and (max-width: 1024px) {
-  /*нет изменений*/
-}
-
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 710px) {
   .header__logo {
-    left: 1.5rem;
+    max-width: 8.875rem;
   }
 }

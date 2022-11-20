@@ -1,12 +1,9 @@
 .place__title {
   width: 100%;
-  min-height: min-content;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 4.5rem;
   line-height: 106%;
-  /* or 76px */
   color: #FFFFFF;
   margin: 0 auto;
   align-self: end;

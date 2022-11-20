@@ -1,12 +1,9 @@
 .place__paragraph{
     width: 100%;
-    min-height: min-content;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 163%;
-    /* or 29px */
     color: #FFFFFF;
     margin: 0 auto;
     margin-bottom: 1.625rem;
@@ -16,10 +13,6 @@
 .place__paragraph:last-child {
   margin-bottom: 0;
 }
-
-@media screen and (max-width: 1024px) {
-/*нет изменений*/
-} 
 
 @media screen and (max-width: 768px) {
   .place__paragraph{
@@ -31,6 +24,5 @@
 @media screen and (max-width: 425px) {
   .place__paragraph{
     width: 90%;
-    height: min-content;
   } 
 }

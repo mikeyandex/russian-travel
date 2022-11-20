@@ -1,6 +1,5 @@
 .photo-grid {
-  width: 90%;
-  height: min-content;
+  width: calc(100% - 96px);
   display: grid;
   margin: 0 auto;
   grid-template-columns: repeat(4, 1fr);

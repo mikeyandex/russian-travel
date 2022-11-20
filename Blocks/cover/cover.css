@@ -3,3 +3,9 @@
   margin: 0 auto;
   object-fit: cover;
 }
+
+@media screen and (max-width: 768px) {
+  .cover {
+    padding-top: .98rem;
+  }
+}

@@ -1,6 +1,5 @@
 .place {
   width: 100%;
-  min-height: min-content;
   display: grid;
   grid-template-columns: 46.747% auto;
   grid-template-rows: auto max-content;
@@ -20,15 +19,15 @@
   .place {
     grid-template-columns: 47.222% auto;
     column-gap: 1.75rem;
-    padding-bottom: 4.56rem;
+    padding-bottom: 4.25rem;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 710px) {
   .place {
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
-    column-gap: 2rem;
-    padding-bottom: 3.125rem;
+    row-gap: 2rem;
+    padding-bottom: 3.12rem;
   }
 }
