@@ -4,29 +4,25 @@
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.375rem;
-  /* or 122% */
   text-align: center;
   color: #FFFFFF;
   margin: 0 auto;
+  text-decoration: none;
   z-index: 4;
   position: relative;
-}
-
-@media screen and (max-width: 1024px) {
-  /*Нет изменений*/
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
   .cover__subtitle {
-    min-width: 22.5rem;
+    width: 22.5rem;
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover__subtitle {
-    min-width: 90%;
+    width: 90%;
     font-size: .875rem;
     line-height: 1rem;
-    /* or 114% */
   }
 }

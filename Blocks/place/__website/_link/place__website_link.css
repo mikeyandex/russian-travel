@@ -9,8 +9,11 @@
   display: block;
   margin-left: 0;
   padding-left: 0;
+  display: block;
+  box-sizing: border-box;
 }
 
 .place__website_link:hover {
   opacity: 0.8;
+  width: auto;
 }

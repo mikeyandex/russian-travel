@@ -1,9 +1,9 @@
 .intro__text {
-    width: 100%;
+    max-width: 690px;
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
-    line-height: 26.08px;
+    line-height: 26px;
     color: #FFFFFF;
     padding: 2.5rem 0 2.062rem 0;  
     margin: 0;   
@@ -17,7 +17,7 @@
 
   @media screen and (max-width: 320px) {
     .intro__text {
-      width: 90%;
+      width: 100%;
       line-height: 26.08px;
       padding: 2.5rem 0 2.125rem 0; 
       margin: 0;

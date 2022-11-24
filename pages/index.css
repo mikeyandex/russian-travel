@@ -23,6 +23,7 @@
 /**/
 @import url(../Blocks/intro/intro.css);
 @import url(../Blocks/intro/__list/intro__list.css);
+@import url(../Blocks/intro/__list/intro__list_digits/intro__list_digits.css);
 @import url(../Blocks/intro/__title/intro__title.css);
 @import url(../Blocks/intro/__text/intro__text.css);
 /**/
@@ -40,14 +41,9 @@
 /**/
 @import url(../Blocks/cover/cover.css);
 @import url(../Blocks/cover/__background/cover__background.css);
-@import url(../Blocks/cover/__overlay/cover__overlay.css);
+@import url(../Blocks/cover/__link/cover__link.css);
 @import url(../Blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../Blocks/cover/__title/cover__title.css);
 /**/
 @import url(../Blocks/page/page.css);
 @import url(../Blocks/page/__container/page__container.css);
-
-
-
-
-

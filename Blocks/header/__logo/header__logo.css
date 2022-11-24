@@ -3,6 +3,7 @@
   padding: 0;
   max-width: 11rem;
   height: auto;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 710px) {

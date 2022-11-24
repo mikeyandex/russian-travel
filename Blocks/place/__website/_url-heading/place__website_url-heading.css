@@ -9,6 +9,8 @@
   margin: 0;
   display: block;
   margin-bottom: 0.75rem;
+
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,5 +23,6 @@
   .place__website_url-heading {
     line-height: 12px;
     padding-left: 0;
+    width: auto;
   }
 }

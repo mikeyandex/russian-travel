@@ -2,6 +2,7 @@
   width: 76.875%;
   padding-bottom: 5.75rem;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {

@@ -8,6 +8,7 @@
   color: #FFFFFF;
   margin: 0 auto;
   padding: 2rem 0 4rem 0;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {

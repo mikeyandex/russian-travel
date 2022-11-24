@@ -1,12 +1,19 @@
 .cover__background {
   width: 100%;
   height: 46.25rem;
-  background-image: url("../../../images/cover-trains.jpg");
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*align-items: center;*/
   margin: 0 auto;
+  background-image: url("../../../images/cover-trains.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   z-index: 0;
-  background-size: cover;
-  background-position: center center;
+
 }
 
 
@@ -43,6 +50,6 @@
 
 @media screen and (max-width: 425px) {
   .cover__background {
-        height: 12.5rem;
+    height: 12.5rem;
   }
 }

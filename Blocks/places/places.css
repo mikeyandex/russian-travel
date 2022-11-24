@@ -2,6 +2,8 @@
   width: 76.875%;
   min-height: auto;
   margin: 0 auto;
+  padding-bottom: .75rem;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
@@ -13,6 +15,7 @@
 @media screen and (max-width: 768px) {
   .places {
     width: calc(100% - 3rem);
+    padding-bottom: .625rem;
   }
 }
 

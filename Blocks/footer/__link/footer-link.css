@@ -8,6 +8,7 @@
   text-decoration: none;
   padding-right: 1.125rem;
   display: block;
+  box-sizing: border-box;
 }
 
 .footer__link:hover {
@@ -20,7 +21,5 @@
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 1.5rem;
-    color: white;
-    padding-left: 1rem;
   }
 }

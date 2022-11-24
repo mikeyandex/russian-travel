@@ -7,6 +7,7 @@
   color: #FFFFFF;
   margin: 0 auto;
   align-self: end;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {

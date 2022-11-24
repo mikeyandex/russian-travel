@@ -9,11 +9,12 @@
   margin: 0px;
   display: block;
   justify-self: right;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 710px) {
   .footer__copyright {
     line-height: .875rem;
-    padding: 3rem 2rem 1.5rem 1rem;
+    padding: 3rem 1rem 0 0;
   }
 }

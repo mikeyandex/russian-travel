@@ -1,10 +1,9 @@
   .header__lang {
     list-style-type: none;
     width: min-content;
-    height: 100%;
     display: grid;
     grid-template-columns: 1.375rem 1.375rem;
     column-gap: 1.125rem;
     margin: 0;
-
+    box-sizing: border-box;
   }

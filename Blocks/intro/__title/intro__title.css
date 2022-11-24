@@ -2,10 +2,11 @@
   width: 100%;
   font-style: normal;
   font-weight: 900;
-  font-size: 3.375rem;
-  line-height: 3.625rem;
+  font-size: 54px;
+  line-height: 58px;
   color: #FFFFFF;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {

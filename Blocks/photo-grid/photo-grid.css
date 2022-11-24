@@ -6,6 +6,7 @@
   grid-template-rows: repeat(3, 1fr);
   gap: 1rem;
   padding-bottom: 5.75rem;
+  box-sizing: border-box;
 }
 
 

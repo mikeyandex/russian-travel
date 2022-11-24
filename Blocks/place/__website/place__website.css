@@ -2,7 +2,8 @@
   width: 100%;
   min-height: min-content;
   align-self: end;
-}
+  box-sizing: border-box;
+  }
 
 @media screen and (max-width: 425px) {
   .place__website {

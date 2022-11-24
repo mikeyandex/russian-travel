@@ -2,10 +2,12 @@
   width: 92.5%;
   margin: 0 auto;
   object-fit: cover;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
   .cover {
     padding-top: .98rem;
+    width: 100%;
   }
 }
