@@ -5,7 +5,7 @@
     font-size: 1rem;
     line-height: 26px;
     color: #FFFFFF;
-    padding: 2.5rem 0 2.062rem 0;  
+    padding: 2.5rem 0 2.062rem 0;
     margin: 0;   
 } 
   @media screen and (max-width: 768px) {
@@ -19,7 +19,7 @@
     .intro__text {
       width: 100%;
       line-height: 26.08px;
-      padding: 2.5rem 0 2.125rem 0; 
+      padding: 2.5rem 0 2.125rem 0;
       margin: 0;
     }
   }
