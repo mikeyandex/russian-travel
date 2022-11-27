@@ -1,5 +1,5 @@
 .cover__title {
-  width: 47.3%;
+  width: 35rem;
   font-style: normal;
   font-weight: 900;
   font-size: 4.5rem;
@@ -11,13 +11,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
-  .cover__title {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 710px) {
   .cover__title {
     width: 90%;
     font-size: 2rem;

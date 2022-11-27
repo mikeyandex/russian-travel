@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 767.9px) {
   .footer__copyright {
     line-height: .875rem;
     padding: 3rem 1rem 0 0;

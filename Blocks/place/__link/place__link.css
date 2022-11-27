@@ -1,5 +1,5 @@
-.place__website_link {
-  width: 100%;
+.place__link {
+  max-width: fit-content;
   font-style: normal;
   font-weight: 400;
   font-size: 1.125rem;

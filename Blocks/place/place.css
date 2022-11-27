@@ -16,15 +16,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .place {
-    grid-template-columns: 47.222% auto;
-    column-gap: 1.75rem;
-    padding-bottom: 4.25rem;
-  }
-}
-
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 767.9px) {
   .place {
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;

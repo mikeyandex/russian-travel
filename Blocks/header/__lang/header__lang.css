@@ -1,9 +1,15 @@
   .header__lang {
     list-style-type: none;
-    width: min-content;
-    display: grid;
-    grid-template-columns: 1.375rem 1.375rem;
-    column-gap: 1.125rem;
+    width: 4.875rem;
+    display: flex;
+    justify-content: space-between;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+  }
+
+  @media screen and (max-width: 425px) {
+    .header__lang {
+      width: 3.875rem;
+    }
   }

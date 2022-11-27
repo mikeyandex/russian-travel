@@ -1,4 +1,4 @@
-.place__website_url-heading {
+.place__url-heading {
   width: 100%;
   font-style: normal;
   font-weight: 400;
@@ -9,7 +9,7 @@
   margin: 0;
   display: block;
   margin-bottom: 0.75rem;
-
+  text-transform: uppercase;
   box-sizing: border-box;
 }
 

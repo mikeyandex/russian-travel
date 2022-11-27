@@ -1,0 +1,9 @@
+.header__lang-li {
+  width: 1.875rem;
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-li {
+    width: 1.375rem;
+  }
+}

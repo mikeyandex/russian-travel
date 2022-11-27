@@ -10,8 +10,7 @@
 } 
   @media screen and (max-width: 768px) {
     .intro__text {
-      width: 93.75%;
-      margin: 0 auto;
+      width: 100%;
     }
   }
 
@@ -20,6 +19,5 @@
       width: 100%;
       line-height: 26.08px;
       padding: 2.5rem 0 2.125rem 0;
-      margin: 0;
     }
   }
