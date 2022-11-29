@@ -9,10 +9,15 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
+.place:last-child {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1023.9px) {
   .place {
     grid-template-columns: 47.414% auto;
-    column-gap: 2rem;
+    column-gap: 1.75rem;
+    padding-bottom: 4.5rem;
   }
 }
 

@@ -9,13 +9,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
-  .intro__title {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 767.9px) {
   .intro__title {
     font-size: 32px;
     line-height: 35px;

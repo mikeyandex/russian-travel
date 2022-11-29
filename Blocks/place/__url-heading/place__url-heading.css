@@ -14,13 +14,13 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .place__website_url-heading {
+  .place__url-heading {
     line-height: 170%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .place__website_url-heading {
+  .place__url-heading {
     line-height: 12px;
     padding-left: 0;
     width: auto;

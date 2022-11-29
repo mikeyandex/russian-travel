@@ -10,7 +10,6 @@
   .intro {
     width: calc(100% - 2*48px);
     padding-left: 3rem;
-    padding-bottom: 5.75rem;
   }
 }
 
